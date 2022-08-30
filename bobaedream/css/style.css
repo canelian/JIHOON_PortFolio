@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+.navigation #gnb {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background: #0070BD;
+  padding: 10px 0;
+}
+#gnb li {
+  list-style: none;
+}
+#gnb .gnb_ali {
+  margin-right: 30px;
+}
+#gnb .gnb_ali:last-child {
+  margin-right: 0;
+}
+
+#gnb .gnb_aa {
+  padding: 10px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+}
+#gnb .gnb_aa:hover {
+  background-color: #f2f2f3;
+  color: #000;
+}
+.navigation .gnb_bul {
+  width: 100%;
+  display: none;
+  position: relative;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #f2f2f3;
+  z-index: 99;
+}
+.navigation .gnb_bli {
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+
+}
+.navigation .gnb_ba {
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+.navigation .gnb_ba:hover {
+  color: gray;
+  transition: 300ms;
+}
+section .container {
+  position: absolute;
+}
+#intro {
+  position: absolute;
+  top: 350px;
+  left: 60px;
+  color: #fff;
+  font-size: 5vw;
+}
+#buttom {
+  position: relative;
+  left: 50px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  background-color: gray;
+  padding: 10px;
+  color: #000;
+  font-size: 2vw;
+}
+#middle-img {
+  width: 100vw;
+  height: calc(100vh - 55px);
+  border: 1px solid;
+}
